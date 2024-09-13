@@ -278,7 +278,14 @@
 	<script src="js/jquery.sticky-sidebar.min.js"></script>
 	<script src="js/jquery.magnific-popup.min.js"></script>
 	<script src="js/main.js"></script>
-	<script src="js/cyf.js"></script>
+	<script>
+	  document.addEventListener("DOMContentLoaded", function() {
+   		 let element_yellow = document.getElementById('title');
+   		 if (element_yellow) {
+   		   element_yellow.style.color = '#ffff00'; // Change the color to yellow
+    }
+  });
+</script>
 
 	</body>
 </html>
