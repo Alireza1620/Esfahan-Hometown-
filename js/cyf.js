@@ -1,2 +1,2 @@
-let element_banana = document.getElementById('banana');
-element_banana.style.color = '#ffff00';
+let element_yellow = document.getElementById('title');
+element_yellow.style.color = '#ffff00';
